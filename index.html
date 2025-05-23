@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Angela Tang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar section-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">Welcome:D</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/photo.html" class="navbar_links">Pics with My Little Digital Camera:P</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/hear-me-yapping.html" class="navbar_links">Writings</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/about-research.html" class="navbar_links">Research</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/cooking.html" class="navbar_links">Cooking Pics & Recipes</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/" class="button">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Hey~ This is Angela</h1>
+                <h2>Let's peek into Angela's life shall we?</h2>
+                <p>
+                    Buona giornata a tutti! This is my 2nd attempt of making a personal webpage in my lifetime. 
+                    <br />Last time I tried the webpage looks like a pure math professor's portfolio. 
+                    I mean ... they are still the smartest ppl in the world but their website are always boring:(
+                    <br />So! The goal for this version of website is to make it <strong>more fun and interactive!!!</strong>
+                </p>
+            </div>
+            <div class="main_img--container">
+                <img src="images/pic1.jpeg" alt="pic" id="main_img">
+                <div class="img_caption"> 👆🏼 This is Cookie 🩵  
+                    <br /> My blue grumpy goofy friend 
+                    <br />(He'll be my pfp for a while) 
+                </div>
+                <button class="main_btn" id="cookieBtn" onclick="showMorePics()">
+                    More Pics of Cookie!
+                </button>
+            </div>
+            <div id="more_pics" class="hidden_pics hide">
+                <a href="images/cookie1.jpg" target="_blank">
+                    <img src="images/cookie1.jpg" class="extra_img" alt="cookie 2">
+                </a>
+                <a href="images/cookie2.jpeg" target="_blank">
+                    <img src="images/cookie2.jpeg" class="extra_img" alt="cookie 3">
+                </a>
+                <a href="images/cookie3.jpg" target="_blank">
+                    <img src="images/cookie3.jpg" class="extra_img" alt="cookie 4">
+                </a>
+                <a href="images/cookie4.jpeg" target="_blank">
+                    <img src="images/cookie4.jpeg" class="extra_img" alt="cookie 5">
+                </a>
+                <a href="images/cookie5.jpeg" target="_blank">
+                    <img src="images/cookie5.jpeg" class="extra_img" alt="cookie 6">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
