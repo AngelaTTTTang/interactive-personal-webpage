@@ -241,6 +241,30 @@
     border: 2px solid #ccc;
 }
 
+.main_friends--container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#friendsBtn {
+    margin-top: 1rem;
+}
+
+#more_friends {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+#more_friends.hide {
+    display: none;
+}
+
+
 @media screen and (max-width:960px ){
     .main_img--container {
         margin-top: -10px;
